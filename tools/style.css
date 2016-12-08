@@ -66,36 +66,120 @@ text-align: center;
 
 .abovebanner{
 	width: 100%;
-	float: left;
-	position: relative;
 	background: url(../images/background.jpg) center top no-repeat;
 	background-size: cover;
-	min-height: 499px;
+	min-height: 800px;
+}
+
+.button{
+	background-color: #EF7F3C;
+	margin: 20px;
+	padding: 5px 20px;
+	color: white;
+	border: 0px;
+	border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;;
+}
+
+/* H4 for button type*/
+h4{
+	text-transform: capitalize;
+	font-size:14px;
+	color:white;
+	font-family: 'Lato', serif;
+	}
+
+
+.prototype{
+	width: 100%;
+	float: left;
+	position: relative;
+	/*background-color: #D9E0DF; */
+	background-size: cover;
+	min-height: 200px;
+	padding: 0px 25px;
+}
+
+.prototype-embedd{
+-webkit-box-shadow: 3px 6px 25px 9px rgba(0,0,0,0.56);
+-moz-box-shadow: 3px 6px 25px 9px rgba(0,0,0,0.56);
+box-shadow: 3px 6px 25px 9px rgba(0,0,0,0.56);
+
 }
 
 .header{
 	width: 100%;
 	float: left;
 	display: table-cell;
-	margin: 140px 0 60px 0;
+	margin: 200px 0 60px 0;
+}
+
+.header-sub{
+	width: 100%;
+	float: left;
+	display: table-cell;
+	margin: 60px 0 60px 0;
 }
 
 h1{
 	font-family: 'Lato', sans-serif;
 	font-size: 60px;
 	color: #fff;
+	padding-bottom:10px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, .5)
+}
+
+p{
+	font-size: 16px;
 }
 
 h1 span{
-	color: #a7e09f;
+	color: #EF7F3C;
+}
+
+h2{
+	font-size: 12px;
+	color: #433022;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 30px;
+	font-family: Roboto; 
 }
 
 p.line1{
-	font-size: 13px;
+	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
 
+.mc-field-group{
+	margin:20px;
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	float: left;
+}
+
+#mc_embed_signup_scroll{
+	text-align: center;
+	width: 400px;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+/*#mce-EMAIL{
+	width: 58%;
+	font-family: 'Merriweather', serif;
+	float: left;
+	letter-spacing: 1px
+	padding: 18px 3%;
+}*/
 
 .content{
 	width: 100%;
@@ -120,70 +204,6 @@ p.line1{
 	padding: 0 30%;
 	margin-top: 20px;
 	float: left;
-}
-
-#mc_embed_signup{
-	border: none;
-	float: left;
-	width: 100%;
-}
-
-#mc-embedded-subscribe-form{
-	 width: 70%;
-	 padding: 0 15%;
-	 margin-top: 20px;
-	 float: left;
- }
-
-
-#mc_embed_signup_scroll{
-	border: 1px solid white;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-align: center;
-	width: 100%;
-	font-family: 'Merriweather', serif;
-	float: left;
-	background: none;
-	font-size: 10px;
-	color: #fff;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 0 0;
-}
-
-#mce-EMAIL{
-	width: 58%;
-	font-family: 'Merriweather', serif;
-	float: left;
-	background: none;
-	border: none;
-	font-size: 10px;
-	color: #fff;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 18px 3%;
-}
-
-
-#mc-embedded-subscribe{
-	width: 34%;
-	float: left;
-	background: #d4d0ce;
-	color: #433022;
-	border: none;
-	font-family: 'Merriweather', serif;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 10px 0;
-	margin: 6px 1%;
-	font-size: 12px;
-	cursor: pointer;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-
 }
 
 
@@ -216,11 +236,10 @@ p.line1{
 	float: left;
 }
 
-h2{
-	font-size: 12px;
-	color: #433022;
-	letter-spacing: 2px;
-	margin-bottom: 10px;
+.belowbanner-sub{
+margin-top: 380px;
+width: 100%;
+float: left;
 }
 
 .contact_info{
@@ -277,7 +296,7 @@ h2{
 
 
 .abovebanner{
-	min-height: 400px;
+	height: 900px;
 }
 
 
@@ -285,11 +304,11 @@ h2{
 	width: 100%;
 	float: left;
 	display: table-cell;
-	margin: 100px 0 80px 0;
+	margin: 120px 0 80px 0;
 }
 
 
-#mc_embed_signup{
+/*#mc_embed_signup{
 	border: none;
 	float: left;
 	width: 100%;
@@ -309,7 +328,7 @@ h2{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-align: center;
-	width: 100%;
+	width: 400px;
 	font-family: 'Merriweather', serif;
 	float: left;
 	background: none;
@@ -351,7 +370,7 @@ h2{
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 
-}
+}*/
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	color: white;
@@ -365,8 +384,6 @@ h2{
 :-moz-placeholder { /* Firefox 18- */
 	color: white;
 }
-
-
 
 .form{
 	width: 70%;
@@ -500,7 +517,7 @@ border-radius: 5px;
 }
 
 
-#mc_embed_signup{
+/*#mc_embed_signup{
 	border: none;
 	float: left;
 	width: 100%;
@@ -563,7 +580,7 @@ border-radius: 5px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 
-}
+}*/
 
 
 .submit input{
